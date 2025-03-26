@@ -85,22 +85,22 @@
   "buffers": [
     {
       "byteLength": 199032,
-      "uri": "Lab2_VR-AR_sources/plants/scene.bin"
+      "uri": "scene.bin"
     }
   ],
   "extensionsUsed": ["KHR_materials_specular"],
   "images": [
     {
-      "uri": "Lab2_VR-AR_sources/plants/textures/Material_baseColor.png"
+      "uri": "textures/Material_baseColor.png"
     },
     {
-      "uri": "Lab2_VR-AR_sources/plants/textures/Material_metallicRoughness.png"
+      "uri": "textures/Material_metallicRoughness.png"
     },
     {
-      "uri": "Lab2_VR-AR_sources/plants/textures/Material_normal.png"
+      "uri": "textures/Material_normal.png"
     },
     {
-      "uri": "Lab2_VR-AR_sources/plants/textures/Material_specularf0.png"
+      "uri": "textures/Material_specularf0.png"
     }
   ],
   "materials": [
