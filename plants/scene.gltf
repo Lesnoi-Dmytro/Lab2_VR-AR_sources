@@ -4,16 +4,8 @@
       "bufferView": 2,
       "componentType": 5126,
       "count": 3644,
-      "max": [
-        5.042303085327148,
-        2.2448949813842773,
-        2.8778469562530518
-      ],
-      "min": [
-        -4.11789608001709,
-        -1.6925779581069946,
-        -0.8857390284538269
-      ],
+      "max": [5.042303085327148, 2.2448949813842773, 2.8778469562530518],
+      "min": [-4.11789608001709, -1.6925779581069946, -0.8857390284538269],
       "type": "VEC3"
     },
     {
@@ -21,48 +13,24 @@
       "byteOffset": 43728,
       "componentType": 5126,
       "count": 3644,
-      "max": [
-        0.9993985891342163,
-        0.9995946288108826,
-        0.9999953508377075
-      ],
-      "min": [
-        -0.9991766810417175,
-        -0.9998028874397278,
-        -0.9981132745742798
-      ],
+      "max": [0.9993985891342163, 0.9995946288108826, 0.9999953508377075],
+      "min": [-0.9991766810417175, -0.9998028874397278, -0.9981132745742798],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
       "count": 3644,
-      "max": [
-        0.9992945194244385,
-        0.9997852444648743,
-        0.999966025352478,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.9999541640281677,
-        -0.9810577034950256,
-        -1.0
-      ],
+      "max": [0.9992945194244385, 0.9997852444648743, 0.999966025352478, 1.0],
+      "min": [-1.0, -0.9999541640281677, -0.9810577034950256, -1.0],
       "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
       "count": 3644,
-      "max": [
-        0.8196920156478882,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.0
-      ],
+      "max": [0.8196920156478882, 1.0],
+      "min": [0.0, 0.0],
       "type": "VEC2"
     },
     {
@@ -117,24 +85,22 @@
   "buffers": [
     {
       "byteLength": 199032,
-      "uri": "scene.bin"
+      "uri": "Lab2_VR-AR_sources/plants/scene.bin"
     }
   ],
-  "extensionsUsed": [
-    "KHR_materials_specular"
-  ],
+  "extensionsUsed": ["KHR_materials_specular"],
   "images": [
     {
-      "uri": "textures/Material_baseColor.png"
+      "uri": "Lab2_VR-AR_sources/plants/textures/Material_baseColor.png"
     },
     {
-      "uri": "textures/Material_metallicRoughness.png"
+      "uri": "Lab2_VR-AR_sources/plants/textures/Material_metallicRoughness.png"
     },
     {
-      "uri": "textures/Material_normal.png"
+      "uri": "Lab2_VR-AR_sources/plants/textures/Material_normal.png"
     },
     {
-      "uri": "textures/Material_specularf0.png"
+      "uri": "Lab2_VR-AR_sources/plants/textures/Material_specularf0.png"
     }
   ],
   "materials": [
@@ -144,11 +110,7 @@
       "doubleSided": true,
       "extensions": {
         "KHR_materials_specular": {
-          "specularColorFactor": [
-            1.0,
-            1.0,
-            1.0
-          ],
+          "specularColorFactor": [1.0, 1.0, 1.0],
           "specularFactor": 0.0,
           "specularTexture": {
             "index": 3
@@ -191,33 +153,15 @@
   ],
   "nodes": [
     {
-      "children": [
-        1
-      ],
+      "children": [1],
       "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        2.220446049250313e-16,
-        -1.0,
-        0.0,
-        0.0,
-        1.0,
-        2.220446049250313e-16,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
+        1.0, 0.0, 0.0, 0.0, 0.0, 2.220446049250313e-16, -1.0, 0.0, 0.0, 1.0,
+        2.220446049250313e-16, 0.0, 0.0, 0.0, 0.0, 1.0
       ],
       "name": "Sketchfab_model"
     },
     {
-      "children": [
-        2
-      ],
+      "children": [2],
       "name": "Small Folliage Plant.obj.cleaner.materialmerger.gles"
     },
     {
@@ -237,9 +181,7 @@
   "scenes": [
     {
       "name": "Sketchfab_Scene",
-      "nodes": [
-        0
-      ]
+      "nodes": [0]
     }
   ],
   "textures": [
